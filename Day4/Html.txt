@@ -1,0 +1,50 @@
+HTML Summary
+
+What is HTML?
+HTML stands for HyperText Markup Language.
+It is the standard language for creating web pages.
+HTML is not a programming language; it is a markup language.
+HTML5 is a recent version that introduces new elements for enhanced web experiences.
+
+Why is HTML Important?
+HTML is used to create the structure of web pages.
+It is used to organize and display content such as headings, paragraphs, links, images, lists, tables, and forms.
+
+Important HTML Concepts:
+ HTML Elements and Document Structure
+ Block and Inline Elements
+ Structural Elements
+ Semantic Elements
+ Attributes
+ ID and Class
+ DOM (Document Object Model)
+
+Common HTML Tags:
+
+<h1> to <h6> : Used for headings.
+<p> : Used for paragraphs.
+<a> : Used to create links.
+<ul> : Used for unordered lists.
+<ol> : Used for ordered lists.
+<li> : Used for list items.
+<strong> and <b> : Used for bold text.
+<em> and <i> : Used for italic text.
+<br> : Used to create a line break.
+<hr> : Used to create a horizontal line.
+<img> : Used to add images.
+<table> : Used to create tables.
+<form> : Used to create forms for user input.
+<input> : Used to create input fields.
+<label> : Used to define labels for form elements.
+<select> : Used to create a drop-down list.
+<textarea> : Used for multi-line text input.
+<button> : Used to create a clickable button.
+<div> : A structural element used to organize webpage content.
+<header> : A structural element for the header.
+<footer> : A structural element for the footer.
+<nav> : A structural element for navigation.
+<main> : A structural element for the main content.
+<article> : A semantic element for an article.
+<section> : A semantic element for a section.
+<aside> : A semantic element for related content.
+<meta> : Used to define metadata about an HTML document.
