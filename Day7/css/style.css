@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+font-family: "Work Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+body {
+    background-color: #e8f0fe;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    width: 40%;
+    margin: 100px auto;
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.card h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
