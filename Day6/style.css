@@ -1,0 +1,86 @@
+*{
+    color: var(--text-color);
+
+}
+:root{
+    --main-color:#95bdd2;
+    --background-color:#eef7fc;
+    --text-color: #1f2937;
+}
+header {
+    background: var(--main-color);
+    min-height: 20vh;
+}
+body{
+    
+background: var(--background-color);
+background-image: url("mega.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+   
+
+.profile-card {
+    --card-color:white;
+    background-color: var(--card-color);
+    width: 70vw;
+    max-width: 800px;
+    cursor: grab;
+   
+}
+.profile-image {
+    width: 500px;
+    height: 500px;
+}
+/* Needed to override the other color rules in the specificity example */
+#profile-name {
+    color: var(--main-color) !important;
+    font-size: 30px;
+}
+h1,
+h2 {
+    font-weight: bold;
+}
+.skills-section {
+    cursor: help;
+}
+.skills-section ul {
+    background-color: var(--main-color)
+}
+.skills-section > ul {
+    width: 100%;
+}
+.skills-section ul li{
+    color: white;
+    text-decoration: none;
+}
+.contact-button:hover{
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: white;
+
+}
+h2 {
+    color: green;
+}
+
+.profile-card h2 {
+    color: blue;
+}
+.about-section {
+    min-height: 200px;
+}
+.about-section h2 {
+    font-size: 2em;
+}
+.about-section p {
+    font-size: 1.1rem;
+}
+.overflow-box {
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
