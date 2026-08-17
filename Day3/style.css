@@ -1,0 +1,10 @@
+:root{
+    --main-color:red;
+    --scondry-color:blue;
+}
+.about{
+    color: var(--main-color);
+}
+.demo{
+    background-color: var(--scondry-color);
+}

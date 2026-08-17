@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio page">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>My Portfolio</h1>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="about">About Me</h2>
+
+            <p class="demo">
+                Hello, my name is Malak. I am an IT student interested in web development.
+                I am learning how to build websites using HTML and other web technologies.
+            </p>
+
+            <img src="about.jpg" alt="My profile picture" width="400">
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <p>
+                I am interested in <strong>web development</strong> and I enjoy
+                <em>learning new skills</em>.
+                <mark>HTML</mark> is one of the first technologies I am learning.
+            </p>
+
+            <h3>My Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
+
+            <h3>My Learning Journey</h3>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn JavaScript</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <table border="1">
+                <caption>My Courses</caption>
+
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>2 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>3 Weeks</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>4 Weeks</td>
+                        <td>Not Started</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Total Courses</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Learning Web Development</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>My Gallery</h2>
+
+            <figure>
+                <img src="html.jpg" alt="garden" width="400">
+                <figcaption>HTML</figcaption>
+            </figure>
+
+            <figure>
+                <img src="web.jpg" alt="trees" width="400">
+                <figcaption>Web Development</figcaption>
+            </figure>
+
+            <figure>
+                <img src="progrmming.jpg" alt="garden" width="400">
+                <figcaption>Learning Programming</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                <br><br>
+
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate">
+                <br><br>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="course">Course</option>
+                    <option value="project">Project</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <p>Preferred Contact Method:</p>
+
+                <input type="radio" id="contact-email" name="contact-method" value="email">
+                <label for="contact-email">Email</label>
+
+                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <label for="contact-phone">Phone</label>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message"></textarea>
+
+                <br><br>
+
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>FAQ</h2>
+
+            <details>
+                <summary>What are you learning?</summary>
+                <p>I am learning web development.</p>
+            </details>
+
+            <details>
+                <summary>What is your first web technology?</summary>
+                <p>HTML is the first web technology I am learning.</p>
+            </details>
+
+            <details>
+                <summary>Are you interested in programming?</summary>
+                <p>Yes, I am interested in programming and web development.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <address>
+            Email: malak@example.com<br>
+            Cairo, Egypt
+        </address>
+
+        <p>&copy; 2026 My Portfolio</p>
+
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </footer>
+
+</body>
+</html>
