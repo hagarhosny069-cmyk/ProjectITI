@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+.container {
+    height: 600px;
+    background-image: url("bakery.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-content {
+    color: white;
+}
+
+.container h1 {
+    font-size: 45px;
+}
+
+.buttons button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: black;
+}
+
+.about {
+    display: flex;
+    gap: 50px;
+    padding: 70px;
+    align-items: center;
+}
+
+.about-image {
+    width: 45%;
+    height: 350px;
+    background-image: url("bakery.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    width: 45%;
+}
+
+.about-text h2 {
+    font-size: 30px;
+}
+
+.about-text p {
+    line-height: 1.6;
+}
