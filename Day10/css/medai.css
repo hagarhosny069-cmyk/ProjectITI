@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+    .about-image,
+    .about-text,
+    .our-location-image,
+    .our-location-text {
+        width: 100%;
+    }
+
+    .about,
+    .our-location {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+}
+@media (max-width: 767px) {
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+}
