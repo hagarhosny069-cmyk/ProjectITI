@@ -1,0 +1,30 @@
+/* .continer{
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+.header{
+    background-color: orange;
+    grid-area: header;
+
+}
+.main{
+    background-color: lightseagreen;
+    grid-area: main;
+}
+.sidebar{
+    background-color: rgb(215, 106, 106);
+    grid-area: sidebar;
+
+}
+.footer{
+    background-color: lightgreen;
+    grid-area: footer;
+} */
+
+
+
