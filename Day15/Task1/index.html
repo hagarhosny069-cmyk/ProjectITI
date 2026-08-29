@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recipe Search</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="container mt-4">
+
+        <div class="mb-2">
+            <input 
+                type="text" 
+                class="form-control" 
+                id="searchInput"
+                placeholder="Search for a recipe">
+        </div>
+
+        <div class="mb-3">
+            <select class="form-select" id="searchSelect">
+                <option value="carrot">carrot</option>
+                <option value="chicken">chicken</option>
+                <option value="pizza">pizza</option>
+                <option value="pasta">pasta</option>
+            </select>
+        </div>
+
+        <div class="row g-3" id="recipesContainer">
+
+            <div class="col-md-3">
+
+                <div class="bg-white rounded-3 overflow-hidden shadow h-100">
+
+                    <img 
+                        src="recipe.jpg" 
+                        class="img-fluid w-100 recipe-img" 
+                        alt="Recipe">
+
+                    <p class="text-center p-2 m-0 fw-medium">
+                        Delicious Recipe
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
